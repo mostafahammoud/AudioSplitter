@@ -29,19 +29,14 @@ import subprocess
 
 def main():
 
-    fileName1 = ("C:\\Users\\mhamm\\Documents\\Learning\\Investing\\Books"
-                 "\\Rich Dad's Guide To Investing Audio Book Part 1-2.mp3")
-    fileName2 = ("C:\\Users\\mhamm\\Documents\\Learning\\Investing\\Books"
-                 "\\Rich Dad's Guide To Investing Audio Book Part 2-2.mp3")
+    fileName1 = ("")
+    fileName2 = ("")
     
     paths = [fileName1, fileName2]
     
-    savedPath = ("C:\\Users\\mhamm\\Documents\\Learning\\Investing\\Books\\"
-                 "RichDadSplit\Rich Dad's Guide To Investing Audio Book")
+    savedPath = ("")
     
-    mergedFilePath = ("C:\\Users\\mhamm\\Documents\\Learning\\Investing"
-                      "\\Books\\RichDad's Guide To Investing Audio Book "
-                      "Merged.mp3")
+    mergedFilePath = ("")
     
     # The desired length of the file in seconds
     desiredSegmentLength = 20 * 60
