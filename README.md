@@ -8,6 +8,16 @@ they will be split evenly by using combineAudioInDir instead of
 combineAudioByPath
 
 # TO USE:
+    - Download the following libraries:
+        - pydub
+        - math
+        - os
+        - glob
+        - shutil
+        - mutagen.mp3
+        - librosa
+        - subprocess
+
     - Provide the file names to be be used in paths
     - Provide the direcotry of the output files in savedPath
     - Provode the path of the mergedFile in mergedFilePath
